@@ -1,4 +1,20 @@
 {
+  "CF160136439": {
+    "contest_id": 1624,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1624/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Plus One on the Subset",
+    "problem_url": "https://codeforces.com/contest/1624/problem/A",
+    "submission_id": "CF160136439",
+    "submission_url": "https://codeforces.com/contest/1624/submission/160136439",
+    "tags": [
+      "math",
+      "*800"
+    ],
+    "timestamp": "Jun/10/2022 19:44"
+  },
   "CF160726071": {
     "contest_id": 1692,
     "language": "C++20 (GCC 11-64)",
