@@ -1,4 +1,22 @@
 {
+  "CF160726071": {
+    "contest_id": 1692,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1692/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Binary Deque",
+    "problem_url": "https://codeforces.com/contest/1692/problem/E",
+    "submission_id": "CF160726071",
+    "submission_url": "https://codeforces.com/contest/1692/submission/160726071",
+    "tags": [
+      "binary search",
+      "implementation",
+      "two pointers",
+      "*1200"
+    ],
+    "timestamp": "Jun/15/2022 13:14"
+  },
   "CF160758415": {
     "contest_id": 1692,
     "language": "C++17 (GCC 7-32)",

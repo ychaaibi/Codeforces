@@ -1,51 +1,43 @@
-// Online C++ compiler to run C++ program online
-#include <iostream>
-//6 3
-//1 1 1 1 1 0
+/******************************************************************************
+
+                              Online C++ Compiler.
+               Code, Compile, Run and Debug C++ program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
 #include <iostream>
 #include <vector>
 #include <cmath>
-#include <string>
-#include <bits/stdc++.h>
-
 
 using namespace std;
 
-int most_right(vector<int> vec, int target)
-{
-    int start = 0, end = vec.size(), mid;
-    
-    while (start < end)
-    {
-        mid = (start + end) / 2;
-        if (vec[mid] == target && ((mid + 1 < vec.size() && vec[mid + 1] != target) || mid + 1 >= vec.size()))
-            return (mid);
-        else if (vec[mid] > target)
-            end = mid;
-        else
-            start = mid + 1;
-    }
-    return (-1);  
-}
-
-void solve(vector<int> nums, vector<int> sum, int s) {
+void solve(vector<int> nums, int sum) {
     int i = 0;
+    int s = 0;
     int mx = -1;
-    int search;
-    
-    for (int i = 0; i < nums.size(); i++)
+
+    while (++i < nums.size())
+        nums[i] += nums[i - 1];
+    i = 0;
+    while (i < nums.size())
     {
-        search = upper_bound(sum.begin(), sum.end(), s + (i ? sum[i - 1] : 0)) - sum.begin();
-        //cout << search << " " << nums[i] + s + (i ? nums[i - 1] : 0) << endl;
-        if (search != -1 && sum[search - 1] == s + (i ? sum[i - 1] : 0))
-            mx = max(mx, search - i);
+        if (nums[i] - (s ? nums[s - 1] : 0) < sum)
+            i++;
+        else if (nums[i] - (s ? nums[s - 1] : 0) == sum)
+        {
+            mx = max(mx, i - s + 1);
+            i++;
+        }
+        else
+            s++;
     }
     if (mx == -1)
     {
-        cout << mx << endl;
+        cout << -1 << endl;
         return ;
     }
-    cout << (int)nums.size() - mx << endl;
+    cout << ((mx != -1) ? nums.size() - mx : -1) << endl;
 }
 
 void    parse()
@@ -54,16 +46,8 @@ void    parse()
     cin >> size >> s;
     
     vector<int> vec(size);
-    vector<int> sum(size);
-    for (int i = 0; i < size; i++){
-        cin >> vec[i];
-        sum[i] = vec[i];
-        if (i)
-            sum[i] += sum[i - 1];
-        //cout << sum[i] << " ";
-    }
-    cout << endl;
-    solve(vec, sum, s);
+    for (int i = 0; i < size; i++) cin >> vec[i];
+    solve(vec, s);
 }
 
 int main()
