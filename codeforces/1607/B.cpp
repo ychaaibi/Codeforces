@@ -106,14 +106,26 @@ void	solve()
 		}
 		n--;
 	}
-
+	//cout << x0 << endl;
 	n = n / 2;
-	long long	s = (n / 2);
+	if (n % 2)
+	{
+		long long	s = (n / 2);
 
-	if (dir == LEFT)
-		x0 += - (s + (n % 2)) * (5 + 4 * ((s + (n % 2)) - 1)) + s * (9 + 4 * (s - 1));
+		if (dir == LEFT)
+			x0 += - (s + 1) * (5 + 4 * s) + s * (9 + 4 * (s - 1));
+		else
+			x0 += (s + 1) * (5 + 4 * s) - s * (9 + 4 * (s - 1));
+	}
 	else
-		x0 += (s + (n % 2)) * (5 + 4 * ((s + (n % 2)) - 1)) - s * (9 + 4 * (s - 1));
+	{
+		long long	s = (n / 2);
+
+		if (dir == LEFT)
+			x0 += - s * (5 + 4 * (s - 1)) + s * (9 + 4 * (s - 1));
+		else
+			x0 += s * (5 + 4 * (s - 1)) - s * (9 + 4 * (s - 1));
+	}
 	cout << x0 << endl;
 	
 }
