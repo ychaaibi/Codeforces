@@ -1,4 +1,22 @@
 {
+  "CF163858119": {
+    "contest_id": 1703,
+    "language": "C++17 (GCC 7-32)",
+    "path": "codeforces/1703/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Cypher",
+    "problem_url": "https://codeforces.com/contest/1703/problem/C",
+    "submission_id": "CF163858119",
+    "submission_url": "https://codeforces.com/contest/1703/submission/163858119",
+    "tags": [
+      "brute force",
+      "implementation",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Jul/12/2022 16:04"
+  },
   "CF163907193": {
     "contest_id": 1703,
     "language": "C++17 (GCC 7-32)",
