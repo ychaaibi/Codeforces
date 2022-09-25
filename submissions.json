@@ -1,4 +1,22 @@
 {
+  "CF173513543": {
+    "contest_id": 1020,
+    "language": "C++17 (GCC 7-32)",
+    "path": "codeforces/1020/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Badge",
+    "problem_url": "https://codeforces.com/contest/1020/problem/B",
+    "submission_id": "CF173513543",
+    "submission_url": "https://codeforces.com/contest/1020/submission/173513543",
+    "tags": [
+      "brute force",
+      "dfs and similar",
+      "graphs",
+      "*1000"
+    ],
+    "timestamp": "Sep/25/2022 20:50"
+  },
   "CF173516906": {
     "contest_id": 1033,
     "language": "C++17 (GCC 7-32)",
