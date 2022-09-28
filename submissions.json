@@ -1,4 +1,22 @@
 {
+  "CF173818360": {
+    "contest_id": 1730,
+    "language": "C++17 (GCC 7-32)",
+    "path": "codeforces/1730/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Planets",
+    "problem_url": "https://codeforces.com/contest/1730/problem/A",
+    "submission_id": "CF173818360",
+    "submission_url": "https://codeforces.com/contest/1730/submission/173818360",
+    "tags": [
+      "data structures",
+      "greedy",
+      "sortings",
+      "*800"
+    ],
+    "timestamp": "Sep/28/2022 14:22"
+  },
   "CF173822177": {
     "contest_id": 1730,
     "language": "C++17 (GCC 7-32)",
