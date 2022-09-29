@@ -14,15 +14,35 @@ void    solve(int n)
 
         for (int i=0; i<(n/4 - ((n % 4) == 2)); i++)
         {
-                cout << k << " " << k + 4 << " " << k + 1 << " " << k + 5 << " ";
+                even.push_back(k);
+                even.push_back(k + 1);
+                odd.push_back(k + 4);
+                odd.push_back(k + 5);
                 k += 8;
         }
         if (n % 4 == 1)
-                cout << "0";
+                even.push_back(0);
         else if (n % 4 == 3)
-                cout << "1 3 2";
+        {
+                even.push_back(1);
+                even.push_back(2);
+                odd.push_back(3);
+        }
         else if (n % 4 == 2)
-                cout << "7 3 1 11 2 12";
+        {
+                odd.push_back(7);
+                even.push_back(3);
+                odd.push_back(1);
+                odd.push_back(2);
+                even.push_back(11);
+                even.push_back(12);
+        }
+        int     total_odd = 0;
+        int     total_even = 0;
+        for (int i=0; i<odd.size(); i++)
+                cout << even[i] << " " << odd[i] << " ";
+        if (even.size() > odd.size())
+                cout << even[even.size() - 1] << " ";
         cout << endl;
 }
 
