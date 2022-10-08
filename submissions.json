@@ -1,4 +1,22 @@
 {
+  "CF175182190": {
+    "contest_id": 978,
+    "language": "C++17 (GCC 7-32)",
+    "path": "codeforces/978/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Almost Arithmetic Progression",
+    "problem_url": "https://codeforces.com/contest/978/problem/D",
+    "submission_id": "CF175182190",
+    "submission_url": "https://codeforces.com/contest/978/submission/175182190",
+    "tags": [
+      "brute force",
+      "implementation",
+      "math",
+      "*1500"
+    ],
+    "timestamp": "Oct/08/2022 21:23"
+  },
   "CF175182845": {
     "contest_id": 988,
     "language": "C++17 (GCC 7-32)",
