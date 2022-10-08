@@ -11,9 +11,9 @@
 # define    vs  vector<string>
 # define    vvi vector<vector<int>>
 # define    vvs vector<vector<string>>
+# define    vpi vector<pair<int, int> >
 # define    ll  long long
 # define    ull unsigned long long
-# define    vpi vector<pair<int, int> >
 
 using namespace std;
 
@@ -24,30 +24,34 @@ void    solve()
     cin >> n >> k;
     vpi  v(n);
     vi  ans;
+
     for (int i=0; i<n; i++)
     {
-        cin >> v[i].first;
-        v[i].second = i + 1;
+        int val;
+
+        cin >> val;
+        v[i] = make_pair(val, i);
     }
     sort(v.begin(), v.end());
     int count = 1;
-    ans.push_back(v[0].second);
-    for (int i=1; i<n; i++)
+    ans.push_back(v[0].second + 1);
+    for (int i=1; i<v.size(); i++)
     {
         if (v[i].first != v[i - 1].first)
-        {
-            ans.push_back(v[i].second);
-            count++;
-        }
+            ans.push_back(v[i].second + 1);
+        if (ans.size() == k)
+            break ;
     }
-    if (count < k)
+    if (ans.size() < k)
     {
         cout << "NO" << endl;
         return ;
     }
-    cout << "YES" << endl;
-    for (int i=0; i<k; i++) cout << ans[i] << " ";
-
+    else
+    {
+        cout << "YES" << endl;
+        for (int i=0; i<ans.size(); i++) cout << ans[i] << " ";
+    }
 }
 
 int main()
