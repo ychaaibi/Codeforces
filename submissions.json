@@ -1,4 +1,22 @@
 {
+  "CF175113564": {
+    "contest_id": 978,
+    "language": "C++17 (GCC 7-32)",
+    "path": "codeforces/978/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Letters",
+    "problem_url": "https://codeforces.com/contest/978/problem/C",
+    "submission_id": "CF175113564",
+    "submission_url": "https://codeforces.com/contest/978/submission/175113564",
+    "tags": [
+      "binary search",
+      "implementation",
+      "two pointers",
+      "*1000"
+    ],
+    "timestamp": "Oct/08/2022 10:29"
+  },
   "CF175134942": {
     "contest_id": 978,
     "language": "C++17 (GCC 7-32)",
