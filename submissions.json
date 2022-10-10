@@ -1,4 +1,20 @@
 {
+  "CF175322844": {
+    "contest_id": 1003,
+    "language": "C++17 (GCC 7-32)",
+    "path": "codeforces/1003/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Binary String Constructing",
+    "problem_url": "https://codeforces.com/contest/1003/problem/B",
+    "submission_id": "CF175322844",
+    "submission_url": "https://codeforces.com/contest/1003/submission/175322844",
+    "tags": [
+      "constructive algorithms",
+      "*1300"
+    ],
+    "timestamp": "Oct/10/2022 10:09"
+  },
   "CF175326329": {
     "contest_id": 1003,
     "language": "C++17 (GCC 7-32)",
