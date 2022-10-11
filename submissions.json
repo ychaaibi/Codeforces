@@ -1,4 +1,22 @@
 {
+  "CF175516578": {
+    "contest_id": 1005,
+    "language": "C++17 (GCC 7-32)",
+    "path": "codeforces/1005/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Delete from the Left",
+    "problem_url": "https://codeforces.com/contest/1005/problem/B",
+    "submission_id": "CF175516578",
+    "submission_url": "https://codeforces.com/contest/1005/submission/175516578",
+    "tags": [
+      "brute force",
+      "implementation",
+      "strings",
+      "*900"
+    ],
+    "timestamp": "Oct/11/2022 09:00"
+  },
   "CF175552488": {
     "contest_id": 1005,
     "language": "C++17 (GCC 7-32)",
