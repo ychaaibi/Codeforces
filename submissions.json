@@ -1,4 +1,22 @@
 {
+  "CF176042460": {
+    "contest_id": 1742,
+    "language": "C++17 (GCC 7-32)",
+    "path": "codeforces/1742/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Coprime",
+    "problem_url": "https://codeforces.com/contest/1742/problem/D",
+    "submission_id": "CF176042460",
+    "submission_url": "https://codeforces.com/contest/1742/submission/176042460",
+    "tags": [
+      "brute force",
+      "greedy",
+      "number theory",
+      "*1100"
+    ],
+    "timestamp": "Oct/13/2022 17:57"
+  },
   "CF176139064": {
     "contest_id": 1742,
     "language": "C++17 (GCC 7-32)",
