@@ -1,4 +1,21 @@
 {
+  "CF176523003": {
+    "contest_id": 1744,
+    "language": "C++17 (GCC 7-32)",
+    "path": "codeforces/1744/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Even-Odd Increments ",
+    "problem_url": "https://codeforces.com/contest/1744/problem/B",
+    "submission_id": "CF176523003",
+    "submission_url": "https://codeforces.com/contest/1744/submission/176523003",
+    "tags": [
+      "implementation",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Oct/16/2022 15:59"
+  },
   "CF176537119": {
     "contest_id": 1744,
     "language": "C++17 (GCC 7-32)",
