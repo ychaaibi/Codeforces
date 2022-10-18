@@ -1,5 +1,5 @@
 //__________Includes__________________//
- 
+
 # include               <iostream>
 # include               <algorithm>
 # include               <vector>
@@ -15,9 +15,9 @@
 # include               <cmath>
 # include               <climits>
 # include               <cstring>
- 
+
 //____________Containers_Define__________//
- 
+
 # define    vi          vector<int>
 # define    vll         vector<long long>
 # define    vull        vector<unsigned long long>
@@ -26,8 +26,6 @@
 # define    vvull       vector<vector<unsigned long long> >
 # define    vs          vector<string>
 # define    vvs         vector<vector<string> >
-# define    vpi         vector<pair<int, int> >
-# define    vvpi        vector<vector<pair<int, int> > >
 # define    pii         pair<int, int>
 # define    pis         pair<int, string>
 # define    psi         pair<string, int>
@@ -39,30 +37,30 @@
 # define    umpis       unordered_map<int, string>
 # define    umpsi       unordered_map<string, int>
 # define    umpiv       unordered_map<int, vector<int> >
- 
+
 //_____________Data_type________________//
- 
+
 # define    ll          long long
 # define    ull         unsigned long long
 # define    str         string
- 
+
 //_____________Methods__________________//
- 
-# define    mp          make_pair 
-# define    pb          push_back 
-# define    pf          push_front
-# define    f           first    
-# define    s           second   
- 
+
+# define    make_pair   mp
+# define    push_back   pb
+# define    push_front  pf
+# define    first       f
+# define    second      s
+
 using namespace std;
- 
+
 //______________Functions________________//
- 
+
 bool    isInt(double d)
 {
     return ((double)(int)d - d == (double)0.00);
 }
- 
+
 ull     fact(ull n)
 {
     ull res = 1;
@@ -70,12 +68,12 @@ ull     fact(ull n)
     while (n--) res *= (n + 1);
     return (res);
 }
- 
+
 ull     C(ull n, ull k)
 {
     vull    dpp(n + 1);
     vvull   dp(k + 1, dpp);
- 
+
     for (int i=1; i<=n; i++) dp[1][i] = i;
     for (int i=2; i<=k; i++)
     {
@@ -89,80 +87,33 @@ ull     C(ull n, ull k)
     }
     return (dp[k][n]);
 }
- 
-vvull   C_Tab(ull n, ull k)
-{
-    vull    dpp(n + 1);
-    vvull   dp(k + 1, dpp);
- 
-    for (int i=1; i<=n; i++) dp[1][i] = i;
-    for (int i=2; i<=k; i++)
-    {
-        for (int j=1; j<=n; j++)
-        {
-            if (i > j)
-                dp[i][j] = 0;
-            else
-                dp[i][j] = dp[i - 1][j - 1] + dp[i][j - 1];
-        }
-    }
-    return (dp);
-}
 
-vpi merge_intervals(vpi   intervals)
-{
-    pair<int, int>  v;
-    vpi             ans;
-    
-    if (!intervals.size()) return (ans);
-    sort(intervals.begin(), intervals.end());
-    v.f = intervals[0].f;
-    v.s = intervals[0].s;
-    for (int i=1; i<intervals.size(); i++)
-    {
-        if (intervals[i].f > v.s)
-        {
-            ans.push_back(v);
-            v.f = intervals[i].f;
-            v.s = intervals[i].s;
-        }
-        else
-        {
-            v.f = min(v.f, intervals[i].f);
-            v.s = max(v.s, intervals[i].s);
-        }
-    }
-    ans.push_back(v);
-    return (ans);
-}
- 
 void    solve()
 {
-    string  s, t;
+    str  a;
+    str  b;
 
-    cin >> s >> t;
-    if (t[0] == 'a' and t.length() == 1)
+    cin >> a >> b;
+    int a_count = count(a.begin(), a.end(), 'a');
+    int b_count = count(b.begin(), b.end(), 'a');
+    ll  ans = 0;
+    if (b_count == 1 and b.length() == 1)
+        ans = 1;
+    else if (b_count)
+        ans = -1;
+    if (ans)
     {
-        cout << 1 << endl;
+        cout << ans << endl;
         return ;
     }
-    for (int i=0; i<t.length(); i++)
-    {
-        if (t[i] == 'a')
-        {
-            cout << -1 << endl;
-            return ;
-        }
-    }
-    ull ans = 0;
-    for (int i=0; i<s.length(); i++) ans += (s[i] == 'a');
-    cout << ((ull)1 << ans) << endl;
+    ans = 1;
+    cout << (ans<<a_count) << endl; 
 }
- 
+
 int main()
 {
     int cases = 1;
-    
+
     cin >> cases;
     while (cases--)
         solve();
