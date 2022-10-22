@@ -44,19 +44,15 @@
  
 # define    ll          long long
 # define    ull         unsigned long long
-# define    str         string
+# define    string      str
  
 //_____________Methods__________________//
  
 # define    mp          make_pair 
 # define    pb          push_back 
 # define    pf          push_front
-# define    ub          upper_bound
-# define    lb          lower_bound
 # define    f           first    
-# define    s           second
-# define    bg          begin
-# define    ed          end
+# define    s           second   
  
 using namespace std;
  
@@ -79,7 +75,8 @@ ull     C(ull n, ull k)
 {
     vull    dpp(n + 1);
     vvull   dp(k + 1, dpp);
- 
+    
+    if (k > n) return ((ull)0);
     for (int i=1; i<=n; i++) dp[1][i] = i;
     for (int i=2; i<=k; i++)
     {
@@ -94,25 +91,6 @@ ull     C(ull n, ull k)
     return (dp[k][n]);
 }
  
-vvull   C_Tab(ull n, ull k)
-{
-    vull    dpp(n + 1);
-    vvull   dp(k + 1, dpp);
- 
-    for (int i=1; i<=n; i++) dp[1][i] = i;
-    for (int i=2; i<=k; i++)
-    {
-        for (int j=1; j<=n; j++)
-        {
-            if (i > j)
-                dp[i][j] = 0;
-            else
-                dp[i][j] = dp[i - 1][j - 1] + dp[i][j - 1];
-        }
-    }
-    return (dp);
-}
-
 vpi merge_intervals(vpi   intervals)
 {
     pair<int, int>  v;
@@ -139,24 +117,28 @@ vpi merge_intervals(vpi   intervals)
     ans.push_back(v);
     return (ans);
 }
- 
+
+ull select2_from_n(ull n)
+{
+    return ((ull)((n * (n - 1)) / 2));
+}
+
 void    solve()
 {
     ull n, m;
 
     cin >> n >> m;
-    ull div = n / m;
-    ull mod = n % m;
-    cout << mod * (((div + 1) * div)/2) + (m - mod) * ((div * (div - 1))/2) << " ";
-    cout << (ull)(((n - m + 1) * (n - m)) / 2) << endl;
+    cout << (m - n % m) * select2_from_n((ull)(n / m)) + (n % m) * select2_from_n((ull)(n / m) + 1) << " " << select2_from_n(n - m + 1) << endl;
 }
- 
+
 int main()
 {
     int cases = 1;
     
-   // cin >> cases;
+    //cin >> cases;
     while (cases--)
         solve();
     return (0);
 }
+
+// People select k from n is (n * (n - 1)) / 2
