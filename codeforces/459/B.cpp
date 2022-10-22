@@ -44,19 +44,15 @@
  
 # define    ll          long long
 # define    ull         unsigned long long
-# define    str         string
+# define    string      str
  
 //_____________Methods__________________//
  
 # define    mp          make_pair 
 # define    pb          push_back 
 # define    pf          push_front
-# define    ub          upper_bound
-# define    lb          lower_bound
 # define    f           first    
-# define    s           second
-# define    bg          begin
-# define    ed          end
+# define    s           second   
  
 using namespace std;
  
@@ -94,25 +90,6 @@ ull     C(ull n, ull k)
     return (dp[k][n]);
 }
  
-vvull   C_Tab(ull n, ull k)
-{
-    vull    dpp(n + 1);
-    vvull   dp(k + 1, dpp);
- 
-    for (int i=1; i<=n; i++) dp[1][i] = i;
-    for (int i=2; i<=k; i++)
-    {
-        for (int j=1; j<=n; j++)
-        {
-            if (i > j)
-                dp[i][j] = 0;
-            else
-                dp[i][j] = dp[i - 1][j - 1] + dp[i][j - 1];
-        }
-    }
-    return (dp);
-}
-
 vpi merge_intervals(vpi   intervals)
 {
     pair<int, int>  v;
@@ -139,30 +116,29 @@ vpi merge_intervals(vpi   intervals)
     ans.push_back(v);
     return (ans);
 }
- 
+
 void    solve()
 {
-    ull n;
+    ll  n;
 
     cin >> n;
     vi  v(n);
-    for (int i=0; i<n; i++) cin >> v[i];
+    for (ll i=0; i<n; i++) cin >> v[i];
     sort(v.begin(), v.end());
-    if (v[0] == v[v.size() - 1])
-    {
-        cout << 0 << " " << (ull)(((n - 1) * n) / 2) << endl;
-        return ;
-    }
-    cout << v[v.size() - 1] - v[0] << " ";
-    cout << (ull)((ull)(ub(v.bg(), v.ed(), v[0]) - v.bg()) * (ull)(v.size() - (lb(v.bg(), v.ed(), v[v.size() - 1]) - v.bg()))) << endl;
-
+    ll  s = 1, e = v.size() - 2;
+    while (s < v.size() and v[s] == v[s - 1]) s++;
+    while (e >= 0 and v[e] == v[e + 1]) e--;
+    if ((s - 1) >= (e + 1))
+        cout << 0 << " " << (ll)((n * (n - 1)) / 2) <<  endl;
+    else
+        cout << v[e + 1] - v[s - 1] << " " << s * (v.size() - 1 - e) << endl;
 }
- 
+
 int main()
 {
     int cases = 1;
     
-   // cin >> cases;
+    //cin >> cases;
     while (cases--)
         solve();
     return (0);
