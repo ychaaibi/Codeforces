@@ -149,6 +149,7 @@ void    solve()
     stc.push(mp(0, 0));
     for (int i=1; i<size; i++)
     {
+        //cout << (stc.top()).f << " " << (stc.top()).s << endl;
         if (strength[(stc.top()).f] < strength[i])
         {
             rounds[stc.top().f] = stc.top().s;
@@ -157,8 +158,13 @@ void    solve()
         }
         else
             (stc.top()).s++;
+        //cout << (stc.top()).f << " " << (stc.top()).s << endl;
     }
     rounds[(stc.top()).f] = (stc.top()).s;
+    // for (int i=0; i<size; i++)
+    // {
+    //     cout << i + 1 << " " << rounds[i] << endl;
+    // }
     while (q--)
     {
         int n, r;

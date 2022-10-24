@@ -1,4 +1,23 @@
 {
+  "CF177807112": {
+    "contest_id": 1719,
+    "language": "C++17 (GCC 7-32)",
+    "path": "codeforces/1719/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Fighting Tournament",
+    "problem_url": "https://codeforces.com/contest/1719/problem/C",
+    "submission_id": "CF177807112",
+    "submission_url": "https://codeforces.com/contest/1719/submission/177807112",
+    "tags": [
+      "binary search",
+      "data structures",
+      "implementation",
+      "two pointers",
+      "*1400"
+    ],
+    "timestamp": "Oct/24/2022 21:27"
+  },
   "CF177807160": {
     "contest_id": 1719,
     "language": "C++17 (GCC 7-32)",
