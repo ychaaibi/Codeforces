@@ -51,12 +51,8 @@
 # define    mp          make_pair 
 # define    pb          push_back 
 # define    pf          push_front
-# define    ub          upper_bound
-# define    lb          lower_bound
 # define    f           first    
-# define    s           second
-# define    bg          begin
-# define    ed          end
+# define    s           second   
  
 using namespace std;
  
@@ -74,17 +70,7 @@ ull     fact(ull n)
     while (n--) res *= (n + 1);
     return (res);
 }
-
-ull     sum(ull start, ull end)
-{
-    return (((end - start + 1) * (2 * start + (end - start))) / 2);
-}
-
-ull     sum_n(ull n)
-{
-    return ((ull)((n * (n + 1)) / 2));
-}
-
+ 
 ull     C(ull n, ull k)
 {
     vull    dpp(n + 1);
@@ -122,7 +108,7 @@ vvull   C_Tab(ull n, ull k)
     }
     return (dp);
 }
- 
+
 vpi merge_intervals(vpi   intervals)
 {
     pair<int, int>  v;
@@ -150,19 +136,21 @@ vpi merge_intervals(vpi   intervals)
     return (ans);
 }
  
-#define mod (ull)1e9 + 7
-
 void    solve()
 {
-    ull n, m, t;
+    int n, m , t;
     ull ans = 0;
-
     cin >> n >> m >> t;
-    vvull   B = C_Tab(n, n);
-    vvull   G = C_Tab(m, m);
-    ull     b = min(n, t - 1);
-    ull     g = t - b;
-    while (b >= 4 and g <= m) ans += B[b--][n] * G[g++][m];
+    vvull   boys = C_Tab(n, n);
+    vvull   girls = C_Tab(m, m);
+    int b = min(n, t - 1);
+    int g = t - b;
+    while (g <= m and b >= 4)
+    {
+        ans += (boys[b][n] * girls[g][m]);
+        g++;
+        b--;
+    }
     cout << ans << endl;
 }
  
@@ -170,7 +158,7 @@ int main()
 {
     int cases = 1;
     
-   //cin >> cases;
+    //cin >> cases;
     while (cases--)
         solve();
     return (0);
