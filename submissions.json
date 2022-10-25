@@ -1,4 +1,21 @@
 {
+  "CF177882393": {
+    "contest_id": 1204,
+    "language": "C++17 (GCC 7-32)",
+    "path": "codeforces/1204/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Mislove Has Lost an Array",
+    "problem_url": "https://codeforces.com/contest/1204/problem/B",
+    "submission_id": "CF177882393",
+    "submission_url": "https://codeforces.com/contest/1204/submission/177882393",
+    "tags": [
+      "greedy",
+      "math",
+      "*900"
+    ],
+    "timestamp": "Oct/25/2022 14:34"
+  },
   "CF178430837": {
     "contest_id": 1674,
     "language": "C++17 (GCC 7-32)",
