@@ -1,4 +1,21 @@
 {
+  "CF178493507": {
+    "contest_id": 1166,
+    "language": "C++17 (GCC 7-32)",
+    "path": "codeforces/1166/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Silent Classroom",
+    "problem_url": "https://codeforces.com/contest/1166/problem/A",
+    "submission_id": "CF178493507",
+    "submission_url": "https://codeforces.com/contest/1166/submission/178493507",
+    "tags": [
+      "combinatorics",
+      "greedy",
+      "*900"
+    ],
+    "timestamp": "Oct/30/2022 10:24"
+  },
   "CF178494776": {
     "contest_id": 1582,
     "language": "C++17 (GCC 7-32)",
