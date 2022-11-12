@@ -1,4 +1,20 @@
 {
+  "CF180680725": {
+    "contest_id": 1165,
+    "language": "C++17 (GCC 7-32)",
+    "path": "codeforces/1165/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Good String",
+    "problem_url": "https://codeforces.com/contest/1165/problem/C",
+    "submission_id": "CF180680725",
+    "submission_url": "https://codeforces.com/contest/1165/submission/180680725",
+    "tags": [
+      "greedy",
+      "*1300"
+    ],
+    "timestamp": "Nov/12/2022 20:47"
+  },
   "CF180687967": {
     "contest_id": 1165,
     "language": "C++17 (GCC 7-32)",
