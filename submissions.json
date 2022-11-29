@@ -1,4 +1,22 @@
 {
+  "CF183155504": {
+    "contest_id": 1521,
+    "language": "C++17 (GCC 7-32)",
+    "path": "codeforces/1521/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Nastia and Nearly Good Numbers",
+    "problem_url": "https://codeforces.com/contest/1521/problem/A",
+    "submission_id": "CF183155504",
+    "submission_url": "https://codeforces.com/contest/1521/submission/183155504",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "number theory",
+      "*1000"
+    ],
+    "timestamp": "Nov/29/2022 09:26"
+  },
   "CF183192686": {
     "contest_id": 1326,
     "language": "C++17 (GCC 7-32)",
