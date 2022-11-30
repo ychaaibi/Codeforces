@@ -6,7 +6,7 @@
 /*   By: ychaaibi <[email protected]>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/20 14:06:33 by ychaaibi          #+#    #+#             */
-/*   Updated: 2022/12/06 11:59:57 by ychaaibi         ###   ########.fr       */
+/*   Updated: 2022/11/30 10:10:57 by ychaaibi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -192,110 +192,25 @@ bool    is_divisor(string s, string div)
     return (true);
 }
 
-void    fill1(vs &v, int i, int j)
-{
-    string  r = "aeuio";
-    int     m = 0;
-       
-    
-    for (int k=0; k<5; k++)
-    {
-        int a = m;
-        for (int l=0; l<5; l++)
-        {
-            if (a == 5)
-                a = 0;
-            v[k + i][l + j] = r[a++];
-        }
-        m++;
-    }
-}
-
-void    fill2(vs &v, int n, int m)
-{
-    string r = "aeuio";
-    
-    for (int i=0; i<n; i++)
-    {
-        for (int j=m - m%5; j<m; j++)
-            v[i][j] = (i < 5) ? r[i] : 'y';
-    }
-    for (int j=0; j<m; j++)
-    {
-        for (int i=n - n%5; i<n; i++)
-            v[i][j] = (j < 5) ? r[j] : 'y';
-    }
-}
-
-vll     ans(101);
-
-void    rec(vll v, int start, int end, int level)
-{
-    if (start >= end) return ;
-    int index = -1;
-    ll  mx = -1;
-    for (int i=start; i<end; i++)
-    {
-        if (mx < v[i])
-        {
-            mx = v[i];
-            index = i;
-        }
-    }
-    ans[index] = level;
-    rec(v, start, index, level + 1);
-    rec(v, index + 1, end, level + 1);
-}
-
-
-bool    is_prime(int a)
-{
-    for (int i=2; i<=sqrt(a); i++)
-        if (a % i == 0) return (false);
-    return (true);
-}
-
-void    yn(bool check)
-{
-    if (check) cout << "YES" << endl;
-    else cout << "NO" << endl;
-}
-
-bool    check(int b)
-{
-    b--;
-    int prime1 = 0, prime2 = 0;
-    for (int i=2; i<=b - 2; i++)
-    {
-        if (is_prime(i))
-        {
-            if (!prime1) prime1 = i;
-            else if (!prime2) prime2 = i;
-            else if (prime1 > prime2) prime2 = i;
-            else prime1 = i;
-        }
-        if (prime1 and prime2 and prime1 + prime2 == b)
-            return (true);
-        if (prime1 + prime2 > b)
-            return (false);
-    }
-    return (false);
-}
-
 void    solve()
 {
-    ll  a;
+    ll  n;
 
-    cin >> a;
-    for (ll i=2; i<=(ll)sqrt(a); i++)
+    cin >> n;
+    if (n % 2 == 0) cout << int(n / 2) << " " << int(n / 2) << endl;
+    else
     {
-        if (a % i == 0)
+        ll  sqr = sqrt(n);
+        for (ll i=3; i<=sqr; i+=2)
         {
-            cout << (ll)a / i << " " << (ll)a - (a / i) << endl;
-            return ;
+            if (n % i == 0)
+            {
+                cout << (ll)(n / i) * (i - 1) << " " << (ll)n / i << endl;
+                return ;
+            }
         }
+        cout << 1 << " " << n - 1 << endl;
     }
-    cout << 1 << " " << a - 1 <<  endl;
 }
 
 int main()
@@ -304,5 +219,6 @@ int main()
     
     cin >> cases;
     while (cases--) solve();
-    return (0); 
+    return (0);
 }
+
