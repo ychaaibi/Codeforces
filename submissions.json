@@ -1,4 +1,22 @@
 {
+  "CF183725949": {
+    "contest_id": 633,
+    "language": "C++17 (GCC 7-32)",
+    "path": "codeforces/633/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Ebony and Ivory",
+    "problem_url": "https://codeforces.com/contest/633/problem/A",
+    "submission_id": "CF183725949",
+    "submission_url": "https://codeforces.com/contest/633/submission/183725949",
+    "tags": [
+      "brute force",
+      "math",
+      "number theory",
+      "*1100"
+    ],
+    "timestamp": "Dec/03/2022 13:35"
+  },
   "CF183728272": {
     "contest_id": 898,
     "language": "C++17 (GCC 7-32)",
