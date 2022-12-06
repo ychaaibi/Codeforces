@@ -1,4 +1,21 @@
 {
+  "CF184087477": {
+    "contest_id": 1765,
+    "language": "C++17 (GCC 7-32)",
+    "path": "codeforces/1765/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Exchange",
+    "problem_url": "https://codeforces.com/contest/1765/problem/E",
+    "submission_id": "CF184087477",
+    "submission_url": "https://codeforces.com/contest/1765/submission/184087477",
+    "tags": [
+      "brute force",
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Dec/06/2022 11:56"
+  },
   "CF184087801": {
     "contest_id": 1765,
     "language": "C++17 (GCC 7-32)",
