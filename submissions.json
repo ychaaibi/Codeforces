@@ -1,4 +1,21 @@
 {
+  "CF184087801": {
+    "contest_id": 1765,
+    "language": "C++17 (GCC 7-32)",
+    "path": "codeforces/1765/M.cpp",
+    "platform": "Codeforces",
+    "problem_index": "M",
+    "problem_name": "Minimum LCM",
+    "problem_url": "https://codeforces.com/contest/1765/problem/M",
+    "submission_id": "CF184087801",
+    "submission_url": "https://codeforces.com/contest/1765/submission/184087801",
+    "tags": [
+      "math",
+      "number theory",
+      "*1000"
+    ],
+    "timestamp": "Dec/06/2022 12:00"
+  },
   "CF184219410": {
     "contest_id": 1765,
     "language": "C++17 (GCC 7-32)",
