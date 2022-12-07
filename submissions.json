@@ -1,4 +1,21 @@
 {
+  "CF184227242": {
+    "contest_id": 1765,
+    "language": "C++17 (GCC 7-32)",
+    "path": "codeforces/1765/K.cpp",
+    "platform": "Codeforces",
+    "problem_index": "K",
+    "problem_name": "Torus Path",
+    "problem_url": "https://codeforces.com/contest/1765/problem/K",
+    "submission_id": "CF184227242",
+    "submission_url": "https://codeforces.com/contest/1765/submission/184227242",
+    "tags": [
+      "greedy",
+      "math",
+      "*1500"
+    ],
+    "timestamp": "Dec/07/2022 14:12"
+  },
   "CF184236385": {
     "contest_id": 1765,
     "language": "C++17 (GCC 7-32)",
