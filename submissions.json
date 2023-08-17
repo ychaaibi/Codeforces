@@ -1,4 +1,23 @@
 {
+  "CF219341749": {
+    "contest_id": 1860,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1860/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Game on Permutation",
+    "problem_url": "https://codeforces.com/contest/1860/problem/C",
+    "submission_id": "CF219341749",
+    "submission_url": "https://codeforces.com/contest/1860/submission/219341749",
+    "tags": [
+      "data structures",
+      "dp",
+      "games",
+      "greedy",
+      "*1400"
+    ],
+    "timestamp": "Aug/17/2023 17:31"
+  },
   "CF220164873": {
     "contest_id": 1862,
     "language": "C++20 (GCC 11-64)",
