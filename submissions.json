@@ -1,4 +1,23 @@
 {
+  "CF220164873": {
+    "contest_id": 1862,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1862/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Gift Carpet",
+    "problem_url": "https://codeforces.com/contest/1862/problem/A",
+    "submission_id": "CF220164873",
+    "submission_url": "https://codeforces.com/contest/1862/submission/220164873",
+    "tags": [
+      "dp",
+      "greedy",
+      "implementation",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Aug/24/2023 15:40"
+  },
   "CF220186973": {
     "contest_id": 1862,
     "language": "C++20 (GCC 11-64)",
