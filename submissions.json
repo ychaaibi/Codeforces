@@ -1,4 +1,21 @@
 {
+  "CF224373932": {
+    "contest_id": 1873,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1873/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Target Practice",
+    "problem_url": "https://codeforces.com/contest/1873/problem/C",
+    "submission_id": "CF224373932",
+    "submission_url": "https://codeforces.com/contest/1873/submission/224373932",
+    "tags": [
+      "implementation",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Sep/21/2023 16:05"
+  },
   "CF224430429": {
     "contest_id": 1873,
     "language": "C++20 (GCC 11-64)",
