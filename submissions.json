@@ -1,4 +1,21 @@
 {
+  "CF225335990": {
+    "contest_id": 1878,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1878/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Aleksa and Stack",
+    "problem_url": "https://codeforces.com/contest/1878/problem/B",
+    "submission_id": "CF225335990",
+    "submission_url": "https://codeforces.com/contest/1878/submission/225335990",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Sep/26/2023 16:15"
+  },
   "CF225396739": {
     "contest_id": 1878,
     "language": "C++20 (GCC 11-64)",
