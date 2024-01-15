@@ -1,4 +1,20 @@
 {
+  "CF241858761": {
+    "contest_id": 1913,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1913/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Rating Increase",
+    "problem_url": "https://codeforces.com/contest/1913/problem/A",
+    "submission_id": "CF241858761",
+    "submission_url": "https://codeforces.com/contest/1913/submission/241858761",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Jan/15/2024 21:56"
+  },
   "CF241859186": {
     "contest_id": 1913,
     "language": "C++20 (GCC 11-64)",
