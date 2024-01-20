@@ -1,4 +1,23 @@
 {
+  "CF242609260": {
+    "contest_id": 1922,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces/1922/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Forming Triangles",
+    "problem_url": "https://codeforces.com/contest/1922/problem/B",
+    "submission_id": "CF242609260",
+    "submission_url": "https://codeforces.com/contest/1922/submission/242609260",
+    "tags": [
+      "combinatorics",
+      "constructive algorithms",
+      "math",
+      "sortings",
+      "*1200"
+    ],
+    "timestamp": "Jan/20/2024 16:10"
+  },
   "CF242613825": {
     "contest_id": 1922,
     "language": "C++20 (GCC 11-64)",
