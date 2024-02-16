@@ -12,29 +12,30 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-26 | [C - Long Multiplication](https://codeforces.com/contest/1954/problem/C) | [C++17 (GCC 7-32)](./codeforces/1954/C.cpp) | `greedy` `math` `number theory` | Apr/15/2024 13:15 | 
-25 | [E - Nearly Shortest Repeating Substring](https://codeforces.com/contest/1950/problem/E) | [C++17 (GCC 7-32)](./codeforces/1950/E.cpp) | `brute force` `implementation` `number theory` `strings` | Mar/28/2024 18:22 | 
-24 | [D - Product of Binary Decimals](https://codeforces.com/contest/1950/problem/D) | [C++17 (GCC 7-32)](./codeforces/1950/D.cpp) | `brute force` `dp` `implementation` `number theory` | Mar/28/2024 16:52 | 
-23 | [C - Clock Conversion](https://codeforces.com/contest/1950/problem/C) | [C++17 (GCC 7-32)](./codeforces/1950/C.cpp) | `implementation` `math` | Mar/28/2024 15:07 | 
-22 | [B - Upscaling](https://codeforces.com/contest/1950/problem/B) | [C++17 (GCC 7-32)](./codeforces/1950/B.cpp) | `implementation` | Mar/28/2024 14:59 | 
-21 | [A - Stair, Peak, or Neither?](https://codeforces.com/contest/1950/problem/A) | [C++17 (GCC 7-32)](./codeforces/1950/A.cpp) | `implementation` | Mar/28/2024 14:52 | 
-20 | [B - Maximum Sum](https://codeforces.com/contest/1946/problem/B) | [C++17 (GCC 7-32)](./codeforces/1946/B.cpp) | `dp` `greedy` `math` `*1100` | Mar/22/2024 15:19 | 
-19 | [A - Median of an Array](https://codeforces.com/contest/1946/problem/A) | [C++17 (GCC 7-32)](./codeforces/1946/A.cpp) | `greedy` `implementation` `sortings` `*800` | Mar/22/2024 14:42 | 
-18 | [A - Setting up Camp](https://codeforces.com/contest/1945/problem/A) | [C++17 (GCC 7-32)](./codeforces/1945/A.cpp) | `greedy` `math` `*800` | Mar/20/2024 00:02 | 
-17 | [E - Rudolf and k Bridges](https://codeforces.com/contest/1941/problem/E) | [C++17 (GCC 7-32)](./codeforces/1941/E.cpp) | `binary search` `data structures` `dp` `two pointers` `*1600` | Mar/11/2024 16:35 | 
-16 | [D - Rudolf and the Ball Game](https://codeforces.com/contest/1941/problem/D) | [C++17 (GCC 7-32)](./codeforces/1941/D.cpp) | `dfs and similar` `dp` `implementation` `*1200` | Mar/11/2024 15:46 | 
-15 | [C - Rudolf and the Ugly String](https://codeforces.com/contest/1941/problem/C) | [C++17 (GCC 7-32)](./codeforces/1941/C.cpp) | `dp` `greedy` `strings` `*900` | Mar/11/2024 15:11 | 
-14 | [B - Rudolf and 121](https://codeforces.com/contest/1941/problem/B) | [C++17 (GCC 7-32)](./codeforces/1941/B.cpp) | `brute force` `dp` `greedy` `math` `*1000` | Mar/11/2024 14:49 | 
-13 | [A - Rudolf and the Ticket](https://codeforces.com/contest/1941/problem/A) | [C++17 (GCC 7-32)](./codeforces/1941/A.cpp) | `brute force` `math` `*800` | Mar/11/2024 14:38 | 
-12 | [E - Turtle vs. Rabbit Race: Optimal Trainings](https://codeforces.com/contest/1933/problem/E) | [C++20 (GCC 11-64)](./codeforces/1933/E.cpp) | `binary search` `implementation` `math` `ternary search` `*1500` | Feb/27/2024 17:46 | 
-11 | [D - Turtle Tenacity: Continual Mods](https://codeforces.com/contest/1933/problem/D) | [C++20 (GCC 11-64)](./codeforces/1933/D.cpp) | `constructive algorithms` `greedy` `math` `number theory` `sortings` `*1200` | Feb/27/2024 16:45 | 
-10 | [C - Turtle Fingers: Count the Values of k](https://codeforces.com/contest/1933/problem/C) | [C++20 (GCC 11-64)](./codeforces/1933/C.cpp) | `brute force` `implementation` `math` `number theory` `*1100` | Feb/27/2024 16:00 | 
-9 | [B - Turtle Math: Fast Three Task](https://codeforces.com/contest/1933/problem/B) | [C++20 (GCC 11-64)](./codeforces/1933/B.cpp) | `implementation` `math` `number theory` `*800` | Feb/27/2024 15:46 | 
-8 | [A - Turtle Puzzle: Rearrange and Negate](https://codeforces.com/contest/1933/problem/A) | [C++20 (GCC 11-64)](./codeforces/1933/A.cpp) | `greedy` `math` `sortings` `*800` | Feb/27/2024 15:38 | 
-7 | [C - Vlad and a Sum of Sum of Digits](https://codeforces.com/contest/1926/problem/C) | [C++20 (GCC 11-64)](./codeforces/1926/C.cpp) | `dp` `implementation` `*1200` | Feb/19/2024 16:00 | 
-6 | [B - Vlad and Shapes](https://codeforces.com/contest/1926/problem/B) | [C++20 (GCC 11-64)](./codeforces/1926/B.cpp) | `geometry` `implementation` `*800` | Feb/19/2024 15:43 | 
-5 | [A - Vlad and the Best of Five](https://codeforces.com/contest/1926/problem/A) | [C++20 (GCC 11-64)](./codeforces/1926/A.cpp) | `implementation` `*800` | Feb/19/2024 15:38 | 
-4 | [C - LR-remainders](https://codeforces.com/contest/1932/problem/C) | [C++20 (GCC 11-64)](./codeforces/1932/C.cpp) | `brute force` `data structures` `implementation` `math` `two pointers` `*1400` | Feb/18/2024 16:21 | 
-3 | [D - Card Game](https://codeforces.com/contest/1932/problem/D) | [C++20 (GCC 11-64)](./codeforces/1932/D.cpp) | `greedy` `implementation` `*1400` | Feb/18/2024 14:53 | 
-2 | [B - Chaya Calendar](https://codeforces.com/contest/1932/problem/B) | [C++20 (GCC 11-64)](./codeforces/1932/B.cpp) | `number theory` `*1100` | Feb/18/2024 13:14 | 
-1 | [A - Thorns and Coins](https://codeforces.com/contest/1932/problem/A) | [C++20 (GCC 11-64)](./codeforces/1932/A.cpp) | `dp` `greedy` `implementation` `*800` | Feb/18/2024 13:09 | 
+27 | [C - Long Multiplication](https://codeforces.com/contest/1954/problem/C) | [C++17 (GCC 7-32)](./codeforces/1954/C.cpp) | `greedy` `math` `number theory` | Apr/15/2024 13:15 | 
+26 | [E - Nearly Shortest Repeating Substring](https://codeforces.com/contest/1950/problem/E) | [C++17 (GCC 7-32)](./codeforces/1950/E.cpp) | `brute force` `implementation` `number theory` `strings` | Mar/28/2024 18:22 | 
+25 | [D - Product of Binary Decimals](https://codeforces.com/contest/1950/problem/D) | [C++17 (GCC 7-32)](./codeforces/1950/D.cpp) | `brute force` `dp` `implementation` `number theory` | Mar/28/2024 16:52 | 
+24 | [C - Clock Conversion](https://codeforces.com/contest/1950/problem/C) | [C++17 (GCC 7-32)](./codeforces/1950/C.cpp) | `implementation` `math` | Mar/28/2024 15:07 | 
+23 | [B - Upscaling](https://codeforces.com/contest/1950/problem/B) | [C++17 (GCC 7-32)](./codeforces/1950/B.cpp) | `implementation` | Mar/28/2024 14:59 | 
+22 | [A - Stair, Peak, or Neither?](https://codeforces.com/contest/1950/problem/A) | [C++17 (GCC 7-32)](./codeforces/1950/A.cpp) | `implementation` | Mar/28/2024 14:52 | 
+21 | [B - Maximum Sum](https://codeforces.com/contest/1946/problem/B) | [C++17 (GCC 7-32)](./codeforces/1946/B.cpp) | `dp` `greedy` `math` `*1100` | Mar/22/2024 15:19 | 
+20 | [A - Median of an Array](https://codeforces.com/contest/1946/problem/A) | [C++17 (GCC 7-32)](./codeforces/1946/A.cpp) | `greedy` `implementation` `sortings` `*800` | Mar/22/2024 14:42 | 
+19 | [A - Setting up Camp](https://codeforces.com/contest/1945/problem/A) | [C++17 (GCC 7-32)](./codeforces/1945/A.cpp) | `greedy` `math` `*800` | Mar/20/2024 00:02 | 
+18 | [E - Rudolf and k Bridges](https://codeforces.com/contest/1941/problem/E) | [C++17 (GCC 7-32)](./codeforces/1941/E.cpp) | `binary search` `data structures` `dp` `two pointers` `*1600` | Mar/11/2024 16:35 | 
+17 | [D - Rudolf and the Ball Game](https://codeforces.com/contest/1941/problem/D) | [C++17 (GCC 7-32)](./codeforces/1941/D.cpp) | `dfs and similar` `dp` `implementation` `*1200` | Mar/11/2024 15:46 | 
+16 | [C - Rudolf and the Ugly String](https://codeforces.com/contest/1941/problem/C) | [C++17 (GCC 7-32)](./codeforces/1941/C.cpp) | `dp` `greedy` `strings` `*900` | Mar/11/2024 15:11 | 
+15 | [B - Rudolf and 121](https://codeforces.com/contest/1941/problem/B) | [C++17 (GCC 7-32)](./codeforces/1941/B.cpp) | `brute force` `dp` `greedy` `math` `*1000` | Mar/11/2024 14:49 | 
+14 | [A - Rudolf and the Ticket](https://codeforces.com/contest/1941/problem/A) | [C++17 (GCC 7-32)](./codeforces/1941/A.cpp) | `brute force` `math` `*800` | Mar/11/2024 14:38 | 
+13 | [E - Turtle vs. Rabbit Race: Optimal Trainings](https://codeforces.com/contest/1933/problem/E) | [C++20 (GCC 11-64)](./codeforces/1933/E.cpp) | `binary search` `implementation` `math` `ternary search` `*1500` | Feb/27/2024 17:46 | 
+12 | [D - Turtle Tenacity: Continual Mods](https://codeforces.com/contest/1933/problem/D) | [C++20 (GCC 11-64)](./codeforces/1933/D.cpp) | `constructive algorithms` `greedy` `math` `number theory` `sortings` `*1200` | Feb/27/2024 16:45 | 
+11 | [C - Turtle Fingers: Count the Values of k](https://codeforces.com/contest/1933/problem/C) | [C++20 (GCC 11-64)](./codeforces/1933/C.cpp) | `brute force` `implementation` `math` `number theory` `*1100` | Feb/27/2024 16:00 | 
+10 | [B - Turtle Math: Fast Three Task](https://codeforces.com/contest/1933/problem/B) | [C++20 (GCC 11-64)](./codeforces/1933/B.cpp) | `implementation` `math` `number theory` `*800` | Feb/27/2024 15:46 | 
+9 | [A - Turtle Puzzle: Rearrange and Negate](https://codeforces.com/contest/1933/problem/A) | [C++20 (GCC 11-64)](./codeforces/1933/A.cpp) | `greedy` `math` `sortings` `*800` | Feb/27/2024 15:38 | 
+8 | [C - Vlad and a Sum of Sum of Digits](https://codeforces.com/contest/1926/problem/C) | [C++20 (GCC 11-64)](./codeforces/1926/C.cpp) | `dp` `implementation` `*1200` | Feb/19/2024 16:00 | 
+7 | [B - Vlad and Shapes](https://codeforces.com/contest/1926/problem/B) | [C++20 (GCC 11-64)](./codeforces/1926/B.cpp) | `geometry` `implementation` `*800` | Feb/19/2024 15:43 | 
+6 | [A - Vlad and the Best of Five](https://codeforces.com/contest/1926/problem/A) | [C++20 (GCC 11-64)](./codeforces/1926/A.cpp) | `implementation` `*800` | Feb/19/2024 15:38 | 
+5 | [C - LR-remainders](https://codeforces.com/contest/1932/problem/C) | [C++20 (GCC 11-64)](./codeforces/1932/C.cpp) | `brute force` `data structures` `implementation` `math` `two pointers` `*1400` | Feb/18/2024 16:21 | 
+4 | [D - Card Game](https://codeforces.com/contest/1932/problem/D) | [C++20 (GCC 11-64)](./codeforces/1932/D.cpp) | `greedy` `implementation` `*1400` | Feb/18/2024 14:53 | 
+3 | [B - Chaya Calendar](https://codeforces.com/contest/1932/problem/B) | [C++20 (GCC 11-64)](./codeforces/1932/B.cpp) | `number theory` `*1100` | Feb/18/2024 13:14 | 
+2 | [A - Thorns and Coins](https://codeforces.com/contest/1932/problem/A) | [C++20 (GCC 11-64)](./codeforces/1932/A.cpp) | `dp` `greedy` `implementation` `*800` | Feb/18/2024 13:09 | 
+1 | [B - Make Equal](https://codeforces.com/contest/1931/problem/B) | [C++20 (GCC 11-64)](./codeforces/1931/B.cpp) | `greedy` `*800` | Feb/16/2024 23:23 | 
