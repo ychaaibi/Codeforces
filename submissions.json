@@ -1,4 +1,22 @@
 {
+  "CF253839199": {
+    "contest_id": 1950,
+    "language": "C++17 (GCC 7-32)",
+    "path": "codeforces/1950/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Nearly Shortest Repeating Substring",
+    "problem_url": "https://codeforces.com/contest/1950/problem/E",
+    "submission_id": "CF253839199",
+    "submission_url": "https://codeforces.com/contest/1950/submission/253839199",
+    "tags": [
+      "brute force",
+      "implementation",
+      "number theory",
+      "strings"
+    ],
+    "timestamp": "Mar/28/2024 18:22"
+  },
   "CF256533770": {
     "contest_id": 1954,
     "language": "C++17 (GCC 7-32)",
