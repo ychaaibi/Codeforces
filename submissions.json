@@ -1,4 +1,21 @@
 {
+  "CF256533770": {
+    "contest_id": 1954,
+    "language": "C++17 (GCC 7-32)",
+    "path": "codeforces/1954/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Long Multiplication",
+    "problem_url": "https://codeforces.com/contest/1954/problem/C",
+    "submission_id": "CF256533770",
+    "submission_url": "https://codeforces.com/contest/1954/submission/256533770",
+    "tags": [
+      "greedy",
+      "math",
+      "number theory"
+    ],
+    "timestamp": "Apr/13/2024 16:25"
+  },
   "CF256763315": {
     "contest_id": 1954,
     "language": "C++17 (GCC 7-32)",
